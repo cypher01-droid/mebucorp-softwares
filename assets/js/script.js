@@ -1,11 +1,15 @@
 // Detect mobile
 const isMobile = window.matchMedia("(max-width: 768px)").matches;
-const nav = document.getElementById("nav3d");
 
 // Mobile Nav Toggle
 const toggleButton = document.getElementById("navToggle");
 const mobileMenu = document.getElementById("navLinks");
+const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.main-nav');
 
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
 if (toggleButton && mobileMenu) {
   toggleButton.addEventListener("click", () => {
     mobileMenu.classList.toggle("open");
