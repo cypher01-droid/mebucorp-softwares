@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mebucorp Softwares</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+  <header class="nav-3d" id="nav3d">
+    <div class="logo">Mebucorp</div>
+    <div class="nav-toggle" id="navToggle">⧉</div>
+    <ul class="nav-links" id="navLinks">
+      <li class="active">
+        <a href="index.html">
+          <span class="rune">⌬</span>
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+          <span class="rune">⟁</span>
+          <span>About</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="contact.html">
+          <span class="rune">⟠</span>
+          <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <div class="lens-flare"></div>
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-content">
+      <h1 id="heroText">Welcome to Mebucorp</h1>
+      <p id="heroTextParagraph">Engineering the unknown. Enter the alien realm.</p>
+    </div>
+  </section>
+  
+  <section id="whoWeAre" class="who-we-are">
+    <!-- Alien Shape ClipPath Definition (can be moved to <defs> in main SVG) -->
+    <svg width="0" height="0">
+      <defs>
+        <clipPath id="alienMask" clipPathUnits="objectBoundingBox">
+          <path d="M0.5,0 C0.75,0,1,0.3,1,0.6 C1,0.85,0.75,1,0.5,1 C0.25,1,0,0.85,0,0.6 C0,0.3,0.25,0,0.5,0 Z"/>
+        </clipPath>
+      </defs>
+    </svg>
+  
+    <h2 class="section-title">WHO WE ARE</h2>
+    <div class="identity-grid">
+      <div class="identity-card" style="--i:1;">
+        <h3>👁️ Observers</h3>
+        <p>We watch the digital cosmos to understand its every ripple.</p>
+      </div>
+      <div class="identity-card" style="--i:2;">
+        <h3>🧠 Architects</h3>
+        <p>We don't build software — we manifest alien technology into usable form.</p>
+      </div>
+      <div class="identity-card" style="--i:3;">
+        <h3>🚀 Explorers</h3>
+        <p>We push past the frontiers of possibility — not just with code, but with vision.</p>
+      </div>
+      <div class="identity-card" style="--i:4;">
+        <h3>🛸 Unifiers</h3>
+        <p>We blend human intuition with machine intelligence to craft elegant futures.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- WHAT WE DO SECTION -->
+  <section id="whatWeDo" class="what-we-do">
+    <h2 class="section-title">WHAT WE DO</h2>
+    <div class="glyph-grid">
+      <div class="glyph-card" style="--i:1">
+        <div class="glyph-icon">🧬</div>
+        <h3>Alien Engineering</h3>
+        <p>We reimagine software as living systems built with cosmic logic.</p>
+      </div>
+  
+      <div class="glyph-card" style="--i:2">
+        <div class="glyph-icon">📡</div>
+        <h3>Signal Mapping</h3>
+        <p>We translate interstellar ideas into terrestrial tech experiences.</p>
+      </div>
+  
+      <div class="glyph-card" style="--i:3">
+        <div class="glyph-icon">🛠️</div>
+        <h3>Hyperconstruction</h3>
+        <p>We don’t code — we architect anomalies into structured dimensions.</p>
+      </div>
+  
+      <div class="glyph-card" style="--i:4">
+        <div class="glyph-icon">🌌</div>
+        <h3>Immersive Systems</h3>
+        <p>We craft alternate realms of interaction, not just interfaces.</p>
+      </div>
+  
+      <div class="glyph-card" style="--i:5">
+        <div class="glyph-icon">🧠</div>
+        <h3>Neural Fusion</h3>
+        <p>We merge intuitive design with machine evolution seamlessly.</p>
+      </div>
+  
+      <div class="glyph-card" style="--i:6">
+        <div class="glyph-icon">🪐</div>
+        <h3>Quantum Interfaces</h3>
+        <p>We develop beyond real-time — predicting and reacting instantly.</p>
+      </div>
+    </div>
+  </section>
+  <section id="alienTimeline" class="alien-timeline">
+    <h2 class="section-title">Alien Evolution Timeline</h2>
+    <div class="timeline-track">
+      
+      <div class="timeline-step">
+        <div class="pulse-dot"></div>
+        <h3>👽 Phase 1: Signal Detection</h3>
+        <p>We begin by listening — detecting client needs like alien frequencies across the void. Every signal is analyzed for intent and hidden insights.</p>
+      </div>
+  
+      <div class="timeline-step">
+        <div class="pulse-dot"></div>
+        <h3>🧪 Phase 2: Tech DNA Extraction</h3>
+        <p>We extract the core essence of the project — features, technologies, goals. Every requirement is decoded like alien DNA strands under a quantum scope.</p>
+      </div>
+  
+      <div class="timeline-step">
+        <div class="pulse-dot"></div>
+        <h3>🛠️ Phase 3: Schematic Engineering</h3>
+        <p>Designing begins — we sketch the architecture of the solution like alien blueprints etched in plasma, preparing for flawless interstellar construction.</p>
+      </div>
+  
+      <div class="timeline-step">
+        <div class="pulse-dot"></div>
+        <h3>💻 Phase 4: Core Manifestation</h3>
+        <p>We build — piece by piece, the code is born. Modules pulse into life as we manifest the alien solution from vision into reality.</p>
+      </div>
+  
+      <div class="timeline-step">
+        <div class="pulse-dot"></div>
+        <h3>🧬 Phase 5: Quantum Testing</h3>
+        <p>No bugs survive our multidimensional tests. We stress, scan, and simulate every possibility — verifying system integrity across the galaxies.</p>
+      </div>
+  
+      <div class="timeline-step">
+        <div class="pulse-dot"></div>
+        <h3>🚀 Phase 6: Hyper Deployment</h3>
+        <p>Launch achieved. The project exits the atmosphere and enters the client’s domain — deployed with warp-grade precision, glowing with alien intelligence.</p>
+      </div>
+  
+    </div>
+  </section>
+  <section id="services" class="services-section">
+    <h2 class="section-title">Our Services</h2>
+    <div class="stellar-grid">
+      <div class="service-card">
+        <h3>🧠 Full Stack Dev</h3>
+        <p>Front to back, engineered like alien hardware.</p>
+      </div>
+      <div class="service-card">
+        <h3>🛡️ Penetration Testing</h3>
+        <p>We breach like specters, revealing invisible flaws.</p>
+      </div>
+      <div class="service-card">
+        <h3>🎨 Graphic Design</h3>
+        <p>Alien symbology meets cosmic aesthetics.</p>
+      </div>
+      <div class="service-card">
+        <h3>📢 Digital Marketing</h3>
+        <p>Strategies from beyond to conquer Earth markets.</p>
+      </div>
+      <div class="service-card">
+        <h3>🌐 Community Mgmt</h3>
+        <p>Bridging the void between humans and tech.</p>
+      </div>
+      <div class="service-card">
+        <h3>🧬 UI/UX Design</h3>
+        <p>Interfaces that feel like second skin from another world.</p>
+      </div>
+      <div class="service-card">
+        <h3>📈 SEO Optimization</h3>
+        <p>We make your presence undetectable by obscurity.</p>
+      </div>
+      <div class="service-card">
+        <h3>🤖 Automation & Scripts</h3>
+        <p>Alien logic driving your workflows autonomously.</p>
+      </div>
+      <div class="service-card">
+        <h3>🔧 Custom Software</h3>
+        <p>Tailored tech evolved for unique missions.</p>
+      </div>
+      <div class="service-card">
+        <h3>✨ Branding & Identity</h3>
+        <p>Your essence — encoded and magnified.</p>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials" class="testimonials-section">
+    <h2 class="section-title">Voices from Beyond</h2>
+    <div class="orb-grid">
+      <div class="testimonial-orb">
+        <div class="orb-core"></div>
+        <div class="orb-content">
+          <p>"Mebucorp's alien logic turned our vision into something interstellar."</p>
+          <span>— NovaTech CEO</span>
+        </div>
+      </div>
+      <div class="testimonial-orb">
+        <div class="orb-core"></div>
+        <div class="orb-content">
+          <p>"They don’t code… they channel alien machinery."</p>
+          <span>— Galactic Softworks</span>
+        </div>
+      </div>
+      <div class="testimonial-orb">
+        <div class="orb-core"></div>
+        <div class="orb-content">
+          <p>"Our conversion rate skyrocketed after Mebucorp warped our design."</p>
+          <span>— Astralis Marketing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <section id="tech-stack" class="tech-stack-section">
+    <h2 class="section-title">Alien Tech Stack</h2>
+    <div class="tech-grid">
+      <!-- Web & Frameworks -->
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <span>HTML5</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <span>CSS3</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <span>React</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js">
+        <span>Next.js</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        <span>Node.js</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express">
+        <span>Express</span>
+      </div>
+  
+      <!-- Programming Languages -->
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <span>Python</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+        <span>Java</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+        <span>C</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+        <span>C++</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+        <span>C#</span>
+      </div>
+  
+      <!-- OS & Tools -->
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Kali Linux">
+        <span>Kali Linux</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Parrot OS">
+        <span>Parrot OS</span>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-cards">
+      <div class="contact-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Location</h3>
+        <p>Yaoundé, Cameroon</p>
+      </div>
+      <div class="contact-card">
+        <i class="fas fa-phone"></i>
+        <h3>Phone/WhatsApp</h3>
+        <p>+237 676998883</p>
+      </div>
+      <div class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <h3>Email</h3>
+        <p><a href="mailto:info@mebucorpsoftwares.online">info@mebucorpsoftwares.online</a></p>
+      </div>
+      <div class="contact-card">
+        <i class="fab fa-instagram"></i>
+        <h3>Instagram</h3>
+        <p><a href="https://instagram.com/mebucorptech" target="_blank">@mebucorptech</a></p>
+      </div>
+      <div class="contact-card">
+        <i class="fab fa-github"></i>
+        <h3>GitHub</h3>
+        <p><a href="https://github.com/cypher01-droid" target="_blank">@cypher01-droid</a></p>
+      </div>
+      <div class="contact-card">
+        <i class="fab fa-twitter"></i>
+        <h3>Twitter</h3>
+        <p><a href="https://x.com/buyolimebuela" target="_blank">@buyolimebuela</a></p>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="footer-glow"></div>
+    <div class="footer-content">
+      <p>👽 <strong>Mebucorp Softwares</strong> — Engineering Beyond the Edge.</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/mebucorptech" target="_blank">Instagram</a>
+        <a href="https://github.com/cypher01-droid" target="_blank">GitHub</a>
+        <a href="https://twitter.com/buyolimebuela" target="_blank">Twitter</a>
+        <a href="mailto:info@mebucorpsoftwares.online">Email</a>
+      </div>
+      <small>&copy; 2025 Mebucorp. All rights reserved.</small>
+    </div>
+  </footer>
+  
+</body>
+</html>
