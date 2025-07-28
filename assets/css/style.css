@@ -182,6 +182,8 @@ body {
     text-align: center;
     color: #e0b7ff;
     text-shadow: 0 0 10px #b970ff;
+    max-width: 90vw;
+    width: 100%;
   }
   
   .hero-content h1 {
@@ -198,7 +200,35 @@ body {
     opacity: 0.85;
     margin-top: 1rem;
     animation: fadeInUp 2s ease-out;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
   }
+  
+  /* Mobile Adjustments */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 1.8rem;
+      animation: typing 6s steps(30, end) infinite alternate, blink 0.8s step-end infinite;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-content h1 {
+      font-size: 1.5rem;
+      animation: typing 5s steps(25, end) infinite alternate, blink 0.8s step-end infinite;
+    }
+  
+    .hero-content p {
+      font-size: 0.95rem;
+    }
+  }
+  
   
   /* Animations */
   @keyframes typing {
