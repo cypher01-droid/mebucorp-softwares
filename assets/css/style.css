@@ -8,6 +8,15 @@ body {
     perspective: 1000px;
     width: 100%;
   }
+  html, body {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  section {
+    scroll-snap-align: start;
+  }
   
   /* NAVIGATION */
 /* NAVIGATION */
